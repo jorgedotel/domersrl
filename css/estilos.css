@@ -1,0 +1,623 @@
+/* Envoltura alrededor de la barra de encimapara contener el ancho del grid */
+#wrapper {
+  background: #fff;
+  padding-bottom: 2em; }
+
+/* Barra inicial */
+.top-bar .name h1 a {
+  font-size: 0.8em; }
+
+.contenedor-grid {
+  width: 100%;
+  background: #2a5d84; }
+  /* line 90, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_top-bar.scss */
+  .contenedor-grid .top-bar {
+    margin-bottom: 0; }
+
+body {
+  margin:0;
+}
+body.index .hero {
+  padding: 2em 0; 
+}
+
+body.index .hero h1 {
+  text-align: center;
+  border-top: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+  margin-bottom: 1em;
+  width: 90%; 
+}
+
+/* Estilo empleado al footer */
+ 
+.estilo-footer {
+position: relative;
+background-color: #2A5D84;
+bottom: 1%;
+text-align: center;
+font-family: 'Lato', sans-serif;
+width: 100%;   
+font-weight: 5px;
+
+}
+
+/* Estilo del copyright */
+.col-cr {
+  font-family: Verdana;
+  font-size: 18px;
+  margin-left:1000px;
+  margin-bottom: 1px;
+  margin-top:1px;
+  color:white;
+  font-weight: 20px;
+  width: 100%;
+}
+
+/* Barra superiro  */    
+.seccion-barra-superior .dropdown {
+  border-bottom: 2px solid #eee; 
+}
+
+/* line 116, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+.seccion-barra-superior .dropdown li {
+  border-bottom: 1px solid #eee; 
+}
+
+/* line 119, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+.seccion-barra-superior .dropdown li:last-child {
+  border-bottom: 0; 
+}
+
+/* line 122, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+.seccion-barra-superior .dropdown li a:not(.button):hover {
+  color: #2A5D84 /*#5e8949; */
+}
+/* line 128, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
+.seccion-barra-superior li.has-form {
+  padding-top: 8px; }
+
+.module_top, .module_bottom{
+  visibility: hidden;
+}
+
+/*
+table {
+  border: 0px !important;
+}
+*/
+.module_content img{
+  min-width: 70px;
+}
+
+.module_content h2{
+  font-size: 30px;
+}
+
+
+.barra-encima .name h1 a {
+  font-size: 0.8em; }
+
+.contain-to-grid {
+  width: 100%;
+  background: #2a5d84; 
+}
+
+.contenedor-grid {
+  width: 100%;
+  background: #2a5d84; 
+  
+}
+/* line 90, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_top-bar.scss */
+.contain-to-grid .top-bar {
+    margin-bottom: 0;
+}
+
+.wpb_wrapper .wpb_text_column.wpb_content_element p {
+  color: #2A5D84; /*#747e8d;*/
+  font-size: 1.2384rem;
+  line-height: 1.25rem;
+  text-align: center;
+  font-weight: 900;
+  padding: 10px 10px;
+}
+
+/*
+ Estilo para que el menu se que fijo en el top de pagina.
+*/
+ul {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2A5D84 /*#041D4E;*/
+  
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover:not(.active) {
+  background-color: #FFFFFF; /* #111; */
+  color:#041D4E;
+}
+
+/*Opcion que estara activa en el menu */
+
+.active {
+  color:#FFFFFF;
+  background-color:#041D4E;
+}
+
+.envoltura-img-comp {
+  position: absolute;
+  
+  padding: 1px;
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 50%;
+}
+
+.colsol-desc {
+
+  position: relative;
+  color:#FFFFFF;
+  
+  padding-top: 2px;
+  padding-bottom: 2px;
+
+  margin-left: 750px;
+  margin-top: 20px;
+
+  text-align: left;
+  
+  font-size: 32px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 350;
+
+  width:40%;
+}
+
+.colpos-desc {
+  position: relative;
+
+  color:#FFFFFF;
+  
+  
+  padding-top: 2px;
+  padding-bottom: 2px;
+
+  margin-left: 750px;
+  margin-top: 20px;
+
+  text-align: justify;
+  font-size: 24px;
+  font-family: 'Lato', sans-serif;
+
+  width:40%;
+}
+
+
+/* Estilo pagina de quienes somos */
+
+
+.envoltura-img-quien {
+  position: relative;
+  
+  border-image: 10px;
+  padding-right: 2px;
+  padding-left:  2px;
+  margin-top: 1px;
+  margin-left: 20px;
+  width: 26%;
+}
+
+.envoltura-img-vision {
+  position: absolute;
+  
+  padding: 1px;
+  margin-top: 395px;
+  margin-left: 850px;
+  width: 50%;
+}
+
+
+/* Detalle de quiens somos MISION VISION VALORES */
+.colquien-desc {
+
+  position: relative;
+  color:#FFFFFF;
+  
+  padding-top: 2px;
+  padding-bottom: 2px;
+
+  margin-left: 5px;
+  margin-top: 5px;
+
+  text-align: justify;
+  
+  font-size: 20px;
+  /*font-family: 'Lato', sans-serif; */
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+
+  width:100%;
+}
+
+.colmision-desc {
+
+  position: relative;
+  color:#FFFFFF;
+  padding:1px;
+  margin-left: 10px;
+  margin-top: 1px;
+
+  text-align: justify;
+  
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 200;
+
+  width:100%;
+}
+
+.colvision-desc {
+
+  position: relative;
+  color:#FFFFFF;
+   
+  padding-top: 2px;
+  padding-bottom: 2px;
+
+  margin-left: 20px;
+  margin-top: 1px;
+
+  text-align: justify;
+  
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 200;
+
+  width:60%;
+}
+.colvalores-desc {
+
+ 
+  position: relative;
+  color:#FFFFFF;
+   
+  padding-top: 2px;
+  padding-bottom: 2px;
+
+  margin-left: 20px;
+  margin-top: 1px;
+
+  text-align: justify;
+  
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 200;
+
+  width:60%;
+}
+
+
+/* INICIA ESTILOS DE LAPAGINA DE PRODUCTOS Y SERVICIOS */
+/* Inicia estilos del efecto carrusel en la pagina de servicios */
+
+.envoltura-carrusel{
+  height:400px;
+  position:relative;
+  width:800px;
+  margin:0 auto;
+  top:0;
+}
+.carrusel-item{
+  position:absolute;
+  top:0%;
+  bottom:0;
+  left:0;
+  right:25px;
+  padding:10spx 25px;
+  opacity:0;
+  transition: all 0.5s ease-in-out;
+  width: 80%;
+}
+.arrow{
+  border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 12px;
+}
+
+.arrow-prev{
+  left:-30px;
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%) rotate(135deg);
+} 
+.arrow-next{
+    right:-30px;
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%) rotate(-45deg);
+  }
+
+.light{
+  color:white;
+}
+
+@media (max-width: 480px) {
+      .arrow, .light .arrow {
+        background-size: 10px;
+        background-attachment: fixed;
+        background-position: right; 
+
+    }
+}
+
+/*Select every element*/
+[id^="item"] {
+    display: none;
+  }
+
+.item-1 {
+    z-index: 2;
+    opacity: 1;
+  background:url('../img/iphone.png');
+  background-repeat: no-repeat;
+  background-size: 150px 300px;
+
+  background-position: right; 
+  
+}
+.item-2{
+  background:url('../img/posdesc.png');
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
+  background-position: right;
+}
+.item-3{
+  background:url('../img/webdesc.png');
+   background-size:cover;
+    background-repeat: no-repeat;
+  background-size: 200px 200px;
+
+  background-position: right;
+}
+
+*:target ~ .item-1 {
+    opacity: 0;
+  }
+
+#item-1:target ~ .item-1 {
+    opacity: 1;
+  }
+
+#item-2:target ~ .item-2, #item-3:target ~ .item-3 {
+    z-index: 3;
+    opacity: 1;
+  }
+}
+
+/* Inicia los estilos al carrusel de productos */
+
+
+/*  Linea de texto Innovacion - Descripcion */
+.rowinnov-desc {
+  position: relative;
+  color:#027EE2;
+  padding-top: 2px;
+  padding-bottom: 2px;
+
+  margin-left: 125px;
+  margin-top: 1px;
+
+  text-align: center;
+  
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 200px;
+
+  width:70%; 
+}
+
+/* Linea de texto para el servicio de MOVILIDAD en el carrusel */
+.movtext-desc {
+
+  position: relative;
+  margin-left: 1px;
+  margin-top: 1px;
+
+  text-align: justify;
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+
+  font-weight: 250px;
+  width: 70%;
+}
+
+/* Linea de texto para el servicio de POS en el carrusel */
+.postext-desc {
+
+  position: absolute;
+  margin-left: 1px;
+  margin-top: 1px;
+
+  text-align: justify;
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+
+  font-weight: 250px;
+  width: 70%;
+}
+
+/* INICIA ESTILOS PAGINA DE SERVICIOS */
+
+/* Estilos links e img servicicos electronicos */
+    div.galeria-servicios {
+      margin: 5px;
+      /*border: 1px solid #ccc;*/
+      float: left;
+      width: 90px;
+    }
+
+    div.galeria-servicios:hover {
+      border: 1px solid #777;
+    }
+
+    div.galeria-servicios img {
+      display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+
+    }
+
+    div.desc {
+      padding: 1px;
+      text-align: center;
+      color:blue;
+      font-family: 'Lato', sans-serif;
+      font-size: 14px;
+      width: 30%;
+    }
+
+/* ESTILOS FORMULARIOS DE CONTACTO */
+
+input[type=text], input[type=email],select {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit],input[type=button], input[type=reset]{
+  width: 20%;
+  background-color: #2A5D84;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #2A5D84;
+}
+
+input[type=text]:focus {
+  background-color: lightblue;
+}
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+.posicion-form {
+  position: relative;
+  
+  width: 850px;
+  margin-left: 1px;
+  margin-top: 20px;
+  padding-left: 1px;
+  padding-right: 2px;
+}
+
+.posicion-form-img {
+  position: relative;  
+ 
+  margin-left:10px;
+  margin-top: 1px;
+  padding-left: 1px;
+  padding-right: 2px;
+}
+
+.contenedor-form {
+   border-radius: 5px;
+  
+  padding: 20px;
+  color:white;
+  font-size: 16px;
+}
+ 
+.colum-25 {
+  float: left;
+  width: 20%;
+  margin-top: 6px;
+}
+
+.colum-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.linea:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, 
+make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.contacto-frm-select {
+
+width: 30%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+
+}
+.caja-contacto-frm {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 100%;
+}
+
+/*
+.contacto-form-comentario {
+  position: relative;
+  float:left;
+  width: 250px;
+  height: 150px;
+  padding: 1px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #2A5D84;
+  font-size: 16px;
+  resize: none;
+  margin-left: 10px;
+  overflow: auto;
+}
+*/
+
